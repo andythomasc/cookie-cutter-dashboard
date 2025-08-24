@@ -12,11 +12,11 @@
 - **Node** 18+
 
 ### Backend
-From the backend directory do:
+From the root directory do:
 ```bash
-$ python -m venv venv
-$ source venv/bin/activate
-(venv) $ pip install -r requirements.txt
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 We run the backend from the root of the project (because of conflicts with tests):
 ```bash
