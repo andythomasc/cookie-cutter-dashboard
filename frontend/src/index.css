@@ -1,0 +1,18 @@
+/* src/index.css (Tailwind v4) */
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;                 /* removes the browser’s default margin */
+  background: #0a0a0a;       /* match your app bg */
+  color: #e5e7eb;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
